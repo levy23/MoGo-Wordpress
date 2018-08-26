@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*head*/
+
+.page-header{
+    background-image: url("../img/bg-head.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo a{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo a:hover{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    font-size: 10px;
+    padding: 15px;
+    height: 40px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #fce38a;
+
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li:hover{
+    border-bottom: 2px solid #fce38a;
+    padding-bottom: 2px;
+}
+
+.content-head{
+    text-align: center;
+    padding-top: 90px;
+}
+
+.content-head span{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.content-head h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 95px;
+    margin-top: 30px;
+}
+
+.line{
+    border-bottom: 2px solid white;
+    width: 50px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.learn{
+    border: 2px solid white;
+    width: 100px;
+    margin: 0 auto;
+    font-size: 10px;
+    margin-top: 50px;
+    padding: 7px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.learn a{
+    color: white;
+}
+
+.learn a:hover{
+    text-decoration: none;
+}
+
+/*about*/
+
+.about{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.about span{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about p{
+    padding-top: 25px;
+    color: #999999;
+    font-size: 10px;
+}
+
+.line-red{
+    border-bottom: 2px solid #f38181;
+    width: 50px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container a{
+    padding: 10px;
+}
+
+.photo-about{
+    background-image: url("../img/small/story-one.png");
+    width: 380px;
+    height: 250px;
+    margin: 20px;
+}
+
+.photo-about:hover{
+    background-image: url("../img/small/story-one-bg.png");
+    transition: 0.5s all;
+    cursor: pointer;
+    border-bottom: 10px solid #95e1d3;
+    border-right: 10px solid #95e1d3;
+}
+
+.photo-about-two{
+    background-image: url("../img/small/story-two.png");
+    width: 380px;
+    height: 250px;
+    margin: 20px;
+}
+
+.photo-about-two:hover{
+    background-image: url("../img/small/story-two-bg.png");
+    transition: 0.5s all;
+    cursor: pointer;
+    border-bottom: 10px solid #95e1d3;
+    border-right: 10px solid #95e1d3;
+}
+
+.photo-about-three{
+    background-image: url("../img/small/story-three.png");
+    width: 380px;
+    height: 250px;
+    margin: 20px;
+    transition: 0.5s all;
+}
+
+.photo-about-three:hover{
+    background-image: url("../img/small/story-three-bg.png");
+    transition: 0.5s all;
+    cursor: pointer;
+    border-bottom: 10px solid #95e1d3;
+    border-right: 10px solid #95e1d3;
+}
+
+.photo-sts{
+    height: 350px;
+}
+
+.stats{
+    background-color: #95e1d3;
+    color: white;
+}
+
+.stats h2{
+    font-size: 50px;
+}
+
+.statist{
+    padding: 40px;
+    width: 250px;
+    text-align: center;
+}
+
+.statist p{
+    color: white;
+    margin-top: -30px;
+}
+
+/*services*/
+
+.services{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.services span{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.services h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.services p{
+    padding-top: 25px;
+    color: #999999;
+    font-size: 10px;
+}
+
+.grid-item{
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.service-content{
+    display: flex;
+    justify-content: center;
+}
+
+.service-content2{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container2{
+    padding-top: 35px;
+}
+
+/*unique*/
+
+.unique{
+    background-image: url("../img/bg-unique.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.unique{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.unique span{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.unique h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*what*/
+
+.what{
+    height: 500px;
+}
