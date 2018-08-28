@@ -52,8 +52,38 @@
         <span>For all devices</span>
         <h2>Unique design</h2>
         <div class="line-red"></div>
-
+        <img class="phone" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/White-phone.png"
     </section>
     <section class="what">
-
+        <span>Service</span>
+        <h2>What we do</h2>
+        <div class="line-red"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="what-content">
+        <div class="what-photo">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/what-img.png">
+        </div>
+        <div class="what-text">
+            <div class="what-tab"><img class="image-wt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/picture-icon.png"><p>PHOTOGRAPHY</p></div>
+        </div>
+        </div>
     </section>
+<section class="slide">
+    <div class="slide-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/speech-icon.png"></div>
+    <div class="slide-text">
+        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p><br><span>Jon Doe</span></div>
+</section>
+<section class="met">
+    <span>Who we are</span>
+    <h2>Meet our team</h2>
+    <div class="line-red"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="met-photo">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</section>
+<section class="sponsor">
+
+</section>

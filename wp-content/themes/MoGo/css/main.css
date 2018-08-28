@@ -259,7 +259,7 @@ body{
 
 .unique{
     background-image: url("../img/bg-unique.png");
-    height: 100%;
+    height: 650px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -280,8 +280,98 @@ body{
     font-size: 20px;
 }
 
+.phone{
+    position: relative;
+    top: 125px;
+    left: 205px;
+}
+
+
 /*what*/
 
 .what{
-    height: 500px;
+    height: 750px;
+    padding-top: 130px;
+}
+
+.what p{
+    padding-top: 25px;
+    color: #999999;
+    font-size: 10px;
+}
+
+.what-content{
+    display: flex;
+    justify-content: center;
+}
+
+.what-photo{
+    display: flex;
+}
+
+.what-tab{
+    border: 1px solid #999999;
+    display: flex;
+    width: 500px;
+    padding: 10px;
+}
+
+.what-text{
+    padding-left: 20px;
+}
+
+.image-wt{
+    width: 30px;
+    height: 30px;
+}
+
+/*slide*/
+
+.slide{
+    background-color: #f8f8f8;
+    height: 200px;
+}
+
+.slide-img{
+    border: 2px solid #95e1d3;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+
+.slide-text{
+    margin: -30 auto;
+    text-align: left;
+    width: 640px;
+}
+
+.slide-text p{
+    color: #999999;
+}
+
+.slide-text span{
+    padding-top: 10px;
+    top:-40px;
+    position: relative;
+}
+
+/*meet*/
+
+.met{
+    padding-top: 80px;
+    height: 700px;
+
+}
+
+.met p{
+    padding-top: 25px;
+    color: #999999;
+    font-size: 10px;
+}
+
+.sponsor{
+    background-color: #f8f8f8;
+    height: 200px;
 }
