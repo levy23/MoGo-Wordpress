@@ -79,11 +79,55 @@
     <div class="line-red"></div>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <div class="met-photo">
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="met-photo-one"></div>
+        <div class="met-photo-two"></div>
+        <div class="met-photo-three"></div>
+    </div>
+    <div class="meet-text">
+    <div class="met-txt">Matthew Dix<p>Graphic Design</p></div>
+    <div class="met-txt">Christopher Campbell<p>Branding/UX design</p></div>
+    <div class="met-txt">Michael Fertig<p>Developer</p></div>
     </div>
 </section>
 <section class="sponsor">
-
+    <div class="sponsor-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/sponsor.png"></div>
+</section>
+<section class="work">
+    <span>What we do</span>
+    <h2>some of our work</h2>
+    <div class="line-red"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+</section>
+    <section class="slide-2">
+        <div class="slide-img-2"><img class="img-2" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/joshua.png"></div>
+        <div class="slide-text-2">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p><br><span>Jon Doe</span></div>
+    </section>
+<section class="clients">
+    <div class="clients-txt">
+    <span>Happy clients</span>
+    <h2>What people say</h2>
+    <div class="line-red"></div>
+    </div>
+    <div class="clients-4">
+        <div class="cl-one"><img class="img-cl" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/mathew.png"></div>
+        <div class="cl-txt">
+            <span>Matthew Dix</span><p>Graphic Design</p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim.</i></div>
+        <div class="cl-two"><img class="img-cl" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/nicky.png"></div>
+        <div class="cl-txt">
+            <span>Matthew Dix</span><p>Graphic Design</p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim.</i></div>
+    </div>
+    <div class="clients-4">
+        <div class="cl-three"><img class="img-cl" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/jellyn.png"></div>
+        <div class="cl-txt">
+            <span>Matthew Dix</span><p>Graphic Design</p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim.</i></div>
+        <div class="cl-four"><img class="img-cl" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/mike.png"></div>
+        <div class="cl-txt">
+            <span>Matthew Dix</span><p>Graphic Design</p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim.</i></div>
+    </div>
+</section>
+<section class="stories">
+    <span>Our stories</span>
+    <h2>Latest blog</h2>
+    <div class="line-red"></div>
 </section>
