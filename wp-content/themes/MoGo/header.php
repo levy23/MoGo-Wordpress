@@ -29,4 +29,3 @@
     <div class="learn"><a href="#">learn more</a></div>
 </header>
 
-<?php get_footer(); ?>

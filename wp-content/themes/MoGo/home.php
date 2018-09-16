@@ -130,4 +130,13 @@
     <span>Our stories</span>
     <h2>Latest blog</h2>
     <div class="line-red"></div>
+    <div class="blog-3">
+    <div class="blog-one"><img class="img-blog" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/latest-one.png"><div class="blog-data">15 Jan</div><div class="blog-text"><h2>Lorem ipsum dolor sit amet</h2><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></div>
+    <div class="blog-two"><img class="img-blog" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/latest-two.png"><div class="blog-data">14 Jan</div><div class="blog-text"><h2>Lorem ipsum dolor sit amet</h2><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></div>
+    <div class="blog-three"><img class="img-blog" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/latest-three.png"><div class="blog-data">12 Jan</div><div class="blog-text"><h2>Lorem ipsum dolor sit amet</h2><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></div>
+        </div>
 </section>
+<section class="map">
+    <div class="map-txt"><img class="img-pin" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/pin-map.png"><div class="map-tex-pin">Open Map</div><div class="line-red"></div></div>
+</section>
+    <?php get_footer(); ?>

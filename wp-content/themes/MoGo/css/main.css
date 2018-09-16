@@ -483,7 +483,7 @@ body{
 .slide-text-2{
     margin: 0 auto;
     text-align: left;
-    width: 640px;
+    width: 520px;
     position: relative;
     margin-top: -125px;
 }
@@ -548,5 +548,175 @@ body{
 
 .stories{
     padding-top: 80px;
-    height: 900px;
+    height: 500px;
+}
+
+/*blog*/
+
+.blog-3{
+    display: flex;
+    justify-content: center;
+}
+
+.img-blog{
+    width: 300px;
+    padding: 20px;
+}
+
+.blog-data{
+    background-color: #95e1d3;
+    color: white;
+    width: 45px;
+    height: 50px;
+    position: relative;
+    top: -75px;
+}
+
+.blog-text{
+    width: 280px;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+
+.blog-text h2{
+    font-size: 12px;
+}
+
+.blog-text p {
+    font-size: 9px;
+}
+
+/*map*/
+
+.map{
+    background-image: url("../img/bg-map.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 135px;
+}
+
+.map-txt{
+    color: #f38181;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.map-tex-pin{
+    padding-top: 15px;
+}
+
+/*footer*/
+
+.page-footer{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.foo-one{
+    width: 400px;
+    text-align: left;
+}
+
+.foo-one h2{
+    color: #cccccc;
+    font-size: 30px;
+}
+
+.foo-one p {
+    color: #cccccc;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.foo-one span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.foo-two{
+    text-align: left;
+    padding: 10px;
+}
+
+.foo-two p{
+    padding-top: 20px;
+    position: absolute;
+    padding-left: 140px;
+    width: 320px;
+    font-weight: bold;
+}
+
+.img-foo {
+    padding: 10px;
+}
+
+.foo-blog-img{
+    padding: 2px;
+    width: 330px;
+    display: flex;
+    text-align: left;
+    font-size: 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.foo-data{
+    position: relative;
+    width: 200px;
+    padding-top: 55px;
+    font-family: 'Montserrat', sans-serif;
+    color: #CCCCCC;
+}
+
+.foo-two h6{
+    text-transform: uppercase;
+    color: #CCCCCC;
+    padding-left: 12px;
+}
+
+.foo-three{
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.foo-three h6{
+    text-transform: uppercase;
+    color: #CCCCCC;
+    padding-left: 12px;
+}
+
+.foo-three p{
+    color: #CCCCCC;
+    font-size: 12px;
+    padding-left: 12px;
+}
+
+.foo-follow{
+    border-top: 1px solid #CCCCCC;
+    font-size: 15px;
+    color: #CCCCCC;
+    padding-top: 5px;
+}
+
+.foo-sub{
+    background-color: #95e1d3;
+    color: white;
+    border: none;
+    margin: 0 auto;
+}
+
+.foo-email{
+    padding-top: 20px;
+}
+
+.footer-autor{
+    border-top: 1px solid #CCCCCC;
+    width: 80%;
+    margin: 0 auto;
 }
