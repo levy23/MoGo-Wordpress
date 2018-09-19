@@ -26,6 +26,6 @@
         <h1>Welcome <br>to mogo</h1>
     </div>
     <div class="line"></div>
-    <div class="learn"><a href="#">learn more</a></div>
+    <div class="learn"><a class="head-a" href="#">learn more</a></div>
 </header>
 

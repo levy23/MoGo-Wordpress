@@ -97,6 +97,15 @@
     <h2>some of our work</h2>
     <div class="line-red"></div>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <div class="wrapper">
+        <div class="box a"></div>
+        <div class="box b"></div>
+        <div class="box c"></div>
+        <div class="box d"></div>
+        <div class="box e"></div>
+        <div class="box f"></div>
+        <div class="box g"></div>
+    </div>
 </section>
     <section class="slide-2">
         <div class="slide-img-2"><img class="img-2" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/joshua.png"></div>
