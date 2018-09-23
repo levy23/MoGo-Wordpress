@@ -4,7 +4,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=latin-ext" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-
+        <script>
+            function op(obj) {
+                x=document.getElementById(obj);
+                if(x.style.display == "none") x.style.display = "block";
+                else x.style.display = "none"
+            }
+        </script>
 
 <?php wp_head(); ?>
     </head>
@@ -64,8 +70,18 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/what-img.png">
         </div>
         <div class="what-text">
-            <div class="what-tab"><img class="image-wt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/picture-icon.png"><p>PHOTOGRAPHY</p></div>
-        </div>
+            <div class="what-tab"><img class="image-wt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/picture-icon.png"><p>PHOTOGRAPHY</p><a href="/" onClick="op('poka'); return false;"><i class="fa fa-angle-down" style="font-size:48px;"></i></a></div>
+            <div id="poka" style="display:block">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="what-tab"><img class="image-wt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/equalizer-icon.png"><p>CREATIVITY</p><a href="/" onClick="op('poka2'); return false;"><i class="fa fa-angle-down" style="font-size:48px;"></i></a></div>
+            <div id="poka2" style="display:none">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="what-tab"><img class="image-wt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/small/bullsee-icon.png"><p>WEB DESIGN</p><a href="/" onClick="op('poka3'); return false;"><i class="fa fa-angle-down" style="font-size:48px;"></i></a></div>
+            <div id="poka3" style="display:none">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint oc
+            </div>
         </div>
     </section>
 <section class="slide">
